@@ -1,0 +1,18 @@
+{
+  "name": "dsh-qq-media",
+  "version": "0.2.2",
+  "description": "给 dsh-qq-moony 补上语音/视频/文件出口：微软 edge-tts 少女音（默认，1~2 秒）→ QQ 语音条，可选本机 Breeze TTS 2 或 Windows SAPI 兜底，以及视频、文件直发。共用 qq-moony 的 NapCat 连接配置。",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": ["dsh", "qq", "tts", "voice", "edge-tts", "napcat", "onebot"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.1.7",
+    "node": ">=22"
+  }
+}
