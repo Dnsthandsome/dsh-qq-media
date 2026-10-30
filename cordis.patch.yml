@@ -1,0 +1,7 @@
+# dsh-qq-media bundle patch
+# 给 qq-moony 补语音/视频/文件出口。配置全在 <DSH_HOME>/qq-moony/config.json 里，这里不放凭据。
+- insert:
+    - id: qq-media
+      name: dsh-qq-media
+      config:
+        enabled: true
